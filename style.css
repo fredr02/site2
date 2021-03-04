@@ -49,3 +49,25 @@ hr {
 width: 90%;
 margin: auto;
 }
+
+main {
+  background-image: url(background.jpg);
+  background-size: cover;
+  max-width: 90%;
+  min-height: 700px;
+  margin: auto;
+
+}
+
+main h1 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 300px;
+}
+main p {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 300px;
+}
