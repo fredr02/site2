@@ -1,0 +1,51 @@
+*{
+  margin: 0px;
+  padding:0px;
+}
+header {
+  display: flex;
+  max-width: 90%;
+  margin: auto;
+}
+
+.logo-container img {
+  width: 100px;
+}
+.logo-container h1 {
+  display: inline;
+  color: purple;
+  position: relative;
+  bottom: 37px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px 15px 0px 15px;
+}
+nav ul li a{
+  transition: .3s ease;
+}
+nav ul li a:hover {
+  color: purple;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+nav {
+  flex: 1;
+  margin-top: 50px;
+
+}
+.logo-container {
+  flex: 1;
+  margin: 15px 0px 0px 15px;
+}
+
+hr {
+width: 90%;
+margin: auto;
+}
